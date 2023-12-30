@@ -1,0 +1,15 @@
+button {
+  background-color: darkgray;
+  color: black;
+  font-style: bold;
+  align-items: center;
+  box-align: center;
+ margin-top: 50%;
+  margin-left: 50%;
+  cursor: pointer;
+  border: none;
+  width: 90px;
+  height:40px;
+  
+}
+

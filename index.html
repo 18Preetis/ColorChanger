@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  <script src="script.js"></script>
+
+<body>
+ <script src="script.js"></script>
+  <h1>Hi! Welcome to world of colors...</h1>
+<button id="Click" onclick="changes()" >ClickMe!</button>
+  
+  
+
+<script>
+   
+  function changes() {
+     const color = ["red",'green', 'blue','cyan','orange','#00FF7F','#FFD700','#ADFF2F','#FF4500','#000080','DarkOrchid','violet','grey'];
+      const body =document.querySelector("body");
+    const colorIndex = Math.floor
+      (
+  Math.random() * color.length);
+    body.style.backgroundColor=color[colorIndex];
+     }
+    
+
+  
+  
+  
+  
+</script>
+</body>
+</html>
